@@ -22,6 +22,7 @@ jobs:
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
+          EVIDENCE_OPENROUTER_API_KEY: ${{ secrets.EVIDENCE_OPENROUTER_API_KEY }}
           ## Add and uncomment any environment variables here
           ## EVIDENCE_SOURCE__my_source__username: ${{ secrets.EVIDENCE_SOURCE__MY_SOURCE__USERNAME }}
           ## EVIDENCE_SOURCE__my_source__private_key: ${{ secrets.EVIDENCE_SOURCE__MY_SOURCE__PRIVATE_KEY }}
