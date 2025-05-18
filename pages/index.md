@@ -322,3 +322,22 @@ SELECT
 <Details title="About This Report">
 This analysis is based on quantitative metrics—pricing and context capacity—sourced from the OpenRouter API. For production use, evaluate qualitative factors such as response quality, latency, and domain alignment alongside these metrics.
 </Details>
+
+
+## About This Report
+
+This report was created using Evidence.dev to analyze language models available through the OpenRouter API. The data was last updated on May 2025.
+
+The analysis focuses on:
+- Pricing comparison across different providers
+- Context window capabilities
+- Task-specific performance characteristics
+- Cost efficiency metrics
+
+### Methodology
+
+Models are categorized based on their descriptions and capabilities as described in the OpenRouter API. Cost calculations assume standard token pricing and do not account for potential volume discounts or promotional rates.
+
+### Data Sources
+
+All data is sourced from the [OpenRouter API](https://openrouter.ai/api/v1/models) and is refreshed each time the report is built. The report analyzes only models from major providers: OpenAI, Google, Anthropic, Meta, Qwen, and DeepSeek.
