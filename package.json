@@ -2,8 +2,8 @@
   "name": "my-evidence-project",
   "version": "0.0.1",
   "scripts": {
-    "build": "EVIDENCE_BUILD_DIR=./build/models-report evidence build",
-    "build:strict": "EVIDENCE_BUILD_DIR=./build/models-report evidence build:strict",
+    "build": "EVIDENCE_BUILD_DIR=./build/evident-reports evidence build",
+    "build:strict": "EVIDENCE_BUILD_DIR=./build/evident-reports evidence build:strict",
     "dev": "evidence dev --open /",
     "test": "evidence build",
     "sources": "evidence sources",
