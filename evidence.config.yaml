@@ -81,4 +81,4 @@ plugins:
     "@evidence-dev/motherduck": { }
 
 deployment:
-  basePath: "/models-report"
+  basePath: "/evident-reports"
